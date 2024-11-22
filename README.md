@@ -22,3 +22,16 @@ The MAINS algorithm can also run independently by running `main1.m` in the direc
 
 The authors thank Hassen Fourati and Christophe Prieur of the University Grenoble Alpes for sharing their implementation of `MAGEKF`.
 
+## Citation
+
+If you are using MAINS for academic work, please use the following citation:
+
+```bibtex
+@article{huang2024mains,
+  title={MAINS: A Magnetic Field Aided Inertial Navigation System for Indoor Positioning},
+  author={Huang, Chuan and Hendeby, Gustaf and Fourati, Hassen and Prieur, Christophe and Skog, Isaac},
+  journal={IEEE Sensors Journal},
+  year={2024},
+  publisher={IEEE}
+}
+```
