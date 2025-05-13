@@ -118,8 +118,8 @@ classdef polyMagModel
             dp   = dpsi(1:3);
             dphi = dpsi(4:6);
 
-            R=eye(3)+vect2skew(dphi);        % small angle approximation
-            
+            %R=eye(3)+vect2skew(dphi);        % small angle approximation
+            R = SO3_exp(dphi);
             B=zeros(3*size(obj.points,1), obj.dim);
             
             for ii=1:size(obj.points, 1)
