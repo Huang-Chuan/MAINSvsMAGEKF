@@ -35,7 +35,7 @@ data.t = data.gt.t;
 data.numFrames = data.gt.numFrames;
 data.sampleFreq = 100;
 load(settings.calibrationFilePath)
-data.mag_array.field = calibratemag(data.mag_array.field, theta_all(1:end-1,:), 30);
+data.mag_array.field = calibratemag(data.mag_array.field, theta_all(1:end,:), 30);
 % interpolate
 data.mag_array.field = interp1(data.mag_array.t, data.mag_array.field, data.t);
 data.mag_array.field(end-5:end, :) = repmat(data.mag_array.field(end - 5, :), 6, 1); 

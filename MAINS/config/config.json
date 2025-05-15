@@ -1,7 +1,7 @@
 {
-    "ScenarioName": "bigsquare2",
+    "ScenarioName": "bigsquare3",
     "DataFolderPath":"data",
-    "CalibrationFileName": "calibResults_magcal0601",
+    "CalibrationFileName": "calibML",
     "CalibrationFolderPath":"calibration",
     "MagAiding":{
         "IsTurnedOn": true,

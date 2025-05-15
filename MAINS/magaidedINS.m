@@ -96,7 +96,7 @@ function out_data=magaidedINS(fs, acc_b, gyr_b, B_b, sensor_pos, gt, settings)
 
 
         % Mag aiding update
-        if magEnable && (t(k) >= magStartTime && t(k) <= magEndTime)
+        if magEnable && (t(k) >= magStartTime && t(k) <= magEndTime) 
             z = reshape(mag(k, :), 3, []);
             delta_z = z(:) - Phi * x_h(settings.stateMask.theta);
             if(settings.magSensorBiasInclude)
