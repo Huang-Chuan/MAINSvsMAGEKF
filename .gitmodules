@@ -1,0 +1,4 @@
+[submodule "MAINS"]
+	path = MAINS
+	url = https://github.com/Huang-Chuan/MAINS
+	branch = main
