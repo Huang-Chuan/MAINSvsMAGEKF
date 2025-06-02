@@ -14,6 +14,11 @@ Please see the file LICENSE for details.
 
 ## Usage
 
+Install
+```
+git clone --recurse-submodules https://github.com/Huang-Chuan/MAINSvsMAGEKF.git
+```
+
 Run `main.m` to see the results of the experiments. The results are saved in the directory `results`.
 
 The MAINS algorithm can also run independently by running `main1.m` in the directory `MAINS`. The config file `config.json` can be used to change the parameters of the algorithm.
